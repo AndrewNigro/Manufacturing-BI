@@ -1,0 +1,44 @@
+﻿Product Code,Status,Model,Current Cost of Goods Sold,Product Family,Color,Current List Price
+FOLD-MET-STD,Active,Basic Metal Folding Chair,35.60,Folding Chairs,,89.00
+FOLD-XL-CUSH,Active,Extra Large Cushioned Folding Chair,87.60,Folding Chairs,,219.00
+FOLD-CUSH,Active,Metal Folding Chair with Cushion,55.60,Folding Chairs,,139.00
+FOLD-PAD-OLD,Discontinued,Metal Folding Chair with Cushion,51.60,Folding Chairs,,129.00
+FREIGHT,Active,Freight,0.00,Freight,,0.00
+GAME-STD-BLU,Active,Gaming Chair,359.60,Office Chairs,Black / Blue,899.00
+GAME-STD-RED,Active,Gaming Chair,359.60,Office Chairs,Black / Red,899.00
+GAME-STD-OTT-BLU,Active,Gaming Chair + Ottoman,439.60,Office Chairs,Black / Blue,1099.00
+GAME-STD-OTT-RED,Active,Gaming Chair + Ottoman,439.60,Office Chairs,Black / Red,1099.00
+GAME-LG-BLU,Active,Large Gaming Chair,439.60,Office Chairs,Black / Blue,1099.00
+GAME-LG-RED,Active,Large Gaming Chair,439.60,Office Chairs,Black / Red,1099.00
+GAME-LG-OTT-BLU,Active,Large Gaming Chair + Ottoman,539.60,Office Chairs,Black / Blue,1349.00
+GAME-LG-OTT-RED,Active,Large Gaming Chair + Ottoman,539.60,Office Chairs,Black / Red,1349.00
+OFF-LG-BLK,Active,Large Office Chair,279.60,Office Chairs,Black,699.00
+OFF-LG-GRY,Active,Large Office Chair,279.60,Office Chairs,Gray,699.00
+OFF-LG-OTT-BLK,Active,Large Office Chair + Ottoman,351.60,Office Chairs,Black,879.00
+OFF-LG-OTT-GRY,Active,Large Office Chair + Ottoman,351.60,Office Chairs,Gray,879.00
+OFF-STD-BLK,Active,Standard Office Chair,199.60,Office Chairs,Black,499.00
+OFF-STD-GRY,Active,Standard Office Chair,199.60,Office Chairs,Gray,499.00
+OFF-TASK-OLD,Discontinued,Standard Office Chair,179.60,Office Chairs,Black,449.00
+OFF-STD-OTT-BLK,Active,Standard Office Chair + Ottoman,259.60,Office Chairs,Black,649.00
+OFF-STD-OTT-GRY,Active,Standard Office Chair + Ottoman,259.60,Office Chairs,Gray,649.00
+PART-FOLD-CUSH,Active,Folding Chair Cushion Pad,15.60,Spare Parts,,39.00
+PART-FOLD-FOOT,Active,Folding Chair Foot Cap Set,7.60,Spare Parts,,19.00
+PART-FOLD-HINGE,Active,Folding Chair Hinge Set,19.60,Spare Parts,,49.00
+PART-OFF-ARM,Active,Office Chair Armrest Set,31.60,Spare Parts,,79.00
+PART-OFF-BASE,Active,Office Chair Base,39.60,Spare Parts,,99.00
+PART-OFF-CAST,Active,Office Chair Caster Set,15.60,Spare Parts,,39.00
+PART-OFF-GAS,Active,Office Chair Gas Lift,23.60,Spare Parts,,59.00
+PART-OFF-HDW,Active,Office Chair Hardware Kit,11.60,Spare Parts,,29.00
+PART-OFF-TILT,Active,Office Chair Tilt Mechanism,47.60,Spare Parts,,119.00
+PART-YARD-FOOT,Active,Yard Chair Foot Cap Set,7.60,Spare Parts,,19.00
+PART-YARD-HDW,Active,Yard Chair Hardware Kit,10.00,Spare Parts,,25.00
+PART-YARD-LEG,Active,Yard Chair Replacement Leg,11.60,Spare Parts,,29.00
+TAX,Active,Sales Tax,0.00,Tax,,0.00
+YARD-HD-BLK,Active,Heavy Duty Yard Chair,35.60,Yard Chairs,Black,89.00
+YARD-HD-GRN,Active,Heavy Duty Yard Chair,35.60,Yard Chairs,Dark Green,89.00
+YARD-HD-NVY,Active,Heavy Duty Yard Chair,35.60,Yard Chairs,Navy Blue,89.00
+YARD-HD-WHT,Active,Heavy Duty Yard Chair,35.60,Yard Chairs,White,89.00
+YARD-STD-BLK,Active,Standard Yard Chair,19.60,Yard Chairs,Black,49.00
+YARD-STD-GRN,Active,Standard Yard Chair,19.60,Yard Chairs,Dark Green,49.00
+YARD-STD-NVY,Active,Standard Yard Chair,19.60,Yard Chairs,Navy Blue,49.00
+YARD-STD-WHT,Active,Standard Yard Chair,19.60,Yard Chairs,White,49.00
