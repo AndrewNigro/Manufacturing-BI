@@ -1,0 +1,45 @@
+Check,Result,Status
+Duplicate Order Line Keys,0,PASS
+Missing Order Line Keys,0,PASS
+Missing Order Numbers in Order Lines,0,PASS
+Missing Product Codes in Order Lines,0,PASS
+Missing Account IDs in Order Lines,0,PASS
+Missing Line Numbers in Order Lines,0,PASS
+Negative Qty,0,PASS
+Negative Value,0,PASS
+Negative COGS,0,PASS
+Margin Calculation Mismatches,0,PASS
+Total Calculation Mismatches,0,PASS
+Margin % Calculation Mismatches,0,PASS
+Shipped Qty Mismatches,0,PASS
+Shipped Revenue Mismatches,0,PASS
+Backlog Qty Mismatches,0,PASS
+Backlog Value Mismatches,0,PASS
+Order Lines with Invalid Order Number,0,PASS
+Orders with Invalid Account ID,0,PASS
+Order Lines with Invalid Account ID,0,PASS
+Order Lines with Invalid Product Code,0,PASS
+Returns with Invalid Order Line Key,0,PASS
+Warranty with Invalid Order Line Key,0,PASS
+Returns with Invalid Account ID,0,PASS
+Warranty with Invalid Account ID,0,PASS
+Matched Opportunities with Invalid Account ID,0,PASS
+Order Value Reconciliation Mismatches,0,PASS
+Order Freight Reconciliation Mismatches,0,PASS
+Order Tax Reconciliation Mismatches,0,PASS
+Order Total Reconciliation Mismatches,0,PASS
+Order COGS Reconciliation Mismatches,0,PASS
+Return Qty Exceeds Sold Qty,0,PASS
+Warranty Qty Exceeds Sold Qty,0,PASS
+Return Product Mismatches,0,PASS
+Warranty Product Mismatches,0,PASS
+Return Order Number Mismatches,0,PASS
+Warranty Order Number Mismatches,0,PASS
+Return Account ID Mismatches,0,PASS
+Warranty Account ID Mismatches,0,PASS
+Standard ERP Orders Without Won Opportunity,0,PASS
+Invalid Warranty Replacement Order Links,0,PASS
+Order Lines Flagged for DQ Review,78,INFO
+Orders Flagged for DQ Review,23,INFO
+Opportunities with Unresolved Account ID,69,INFO
+Won Opportunities Without Standard ERP Order,26,INFO
