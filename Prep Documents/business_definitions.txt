@@ -1,0 +1,61 @@
+business definitions - working notes
+
+account - what Sales/Finance call the company, organization, store location, or individual buying from us. big-box locations are separate accounts and store # is part of Account Name.
+
+account type - Big Box Store, Direct Business, Direct Individual.
+
+opportunity - sales work in the CRM before the business is won/lost.
+
+order number - generated when the opportunity is created. if the opportunity is Won, the same number follows the standard order into ERP. warranty replacement orders also use the same normal company-wide number sequence, but they are created from the warranty process rather than an opportunity.
+
+current quote - original quote is the Order Number. revisions add -1, -2, etc. ex: original quote 260089; first revision 260089-1; second revision 260089-2.
+
+number of revisions - count of revisions after the original quote. original quote = 0 revisions.
+
+stale - open opportunity where Close Date has already passed.
+
+won - opportunity was awarded to us. does not mean it has shipped.
+
+close date - projected date while opportunity is open, usually month end unless Sales knows a specific date. after Won/Lost it becomes the actual close date.
+
+value - product value after discount. Freight and Tax are separate.
+
+total - full order amount including Value, Freight, and Tax.
+
+COGS - historical cost of goods sold / what it cost us to build the product on that transaction.
+
+margin - product Value minus COGS.
+
+margin % - margin divided by product Value.
+
+backlog - unshipped product-line Value remaining on open / partially shipped ERP orders.
+
+promised ship date - date we committed to the account. account-requested schedule changes update this date.
+
+adjusted promised ship date - new expected date when we/vendor caused a delay. doesn't erase the fact that the order was late.
+
+ready to ship date - date the order/line was physically ready to go, aside from required final account payment.
+
+ship date - actual line shipment date. order-level Ship Date is the final shippable line's date.
+
+initial payment date - date the payment that starts the production clock is received for prepay/50-50 terms.
+
+final payment date - date final required account payment is received. for 100% Prepay this can be the same as Initial Payment Date.
+
+Net 30 - approved by Finance after credit application. no production prepayment is required.
+
+50/50 - first 50% before production; remaining 50% before shipment.
+
+100% Prepay - full payment before production starts.
+
+RMA - return merchandise authorization / return case.
+
+warranty order - $0 ERP replacement order created from an approved warranty claim. it uses a normal sequential Order Number and Type = Warranty.
+
+FREIGHT - dedicated order-line Product Code used for freight so it can be filtered separately.
+
+TAX - dedicated order-line Product Code used for sales tax so it can be filtered out of product reporting.
+
+purchase order - required on won/ERP orders. for Direct Business / Direct Individual accounts, if the account doesn't provide a PO, use the Order Number as the Purchase Order.
+
+push - historical CRM count of how many times the projected opportunity Close Date was moved to a later date while the opportunity was open. moving the date earlier does not count. the current Close Date by itself is not enough to recreate Push.

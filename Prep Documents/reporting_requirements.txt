@@ -1,0 +1,75 @@
+reporting requirements - management asks / working list
+
+sales pipeline
+what business do we think is coming up?
+need open pipeline by time period, rep, stage, Account Type, etc.
+Push should be available so we can see which opportunities have been moved out repeatedly.
+
+stale opportunities
+what open opportunities are past Close Date and need follow-up?
+use Push as extra context when deciding which repeatedly delayed opportunities need attention.
+
+sales won by month / quarter / year
+how much business are we winning over time?
+
+sales rep performance
+compare reps head to head. booked/won Value, shipped Value, margin %, number of wins, pipeline where useful.
+
+weighted account ranking
+which account relationships should we be building?
+score should use won Value, avg margin %, Return Rate, Warranty Rate, number of won orders, and Pipeline Value.
+weights still need to be finalized when report is built.
+
+product sales
+what is selling and what isn't?
+Product Family / Model / Product Code, Qty, Value, margin, trends. exclude FREIGHT and TAX from core product reporting.
+
+backlog
+what does production/fulfillment need to prepare for?
+use remaining unshipped product-line Value.
+
+shipped revenue
+how much product Value have we actually shipped?
+use Ship Date. keep FREIGHT/TAX separate from product reporting.
+
+margin reporting
+are we making money?
+margin $ and margin % by useful dimensions.
+
+warranty claims
+what product/quality issues are we having?
+look at reason, product, account, trend, resolution.
+
+returns / RMAs
+are returns pointing to product issues, shipping issues, or account-choice issues?
+
+on-time / late orders
+are we shipping when promised?
+company/vendor misses count late. account-payment-only exception applies only when order was ready on time.
+
+delay report
+which active/completed orders were delayed, why, what date did we move to, and did it count as late?
+useful for operations follow-up, not just KPI reporting.
+
+account concentration / repeat business
+how dependent are we on a small number of accounts?
+are accounts continuing to order from us?
+
+lost opportunities / cancellations
+how much business are we not converting and why?
+keep Lost Opportunity reasons separate from ERP cancellation reasons.
+
+bookings vs backlog vs shipments
+full scope of Won business from CRM win -> open ERP backlog -> shipment.
+
+common filters where they make sense:
+Sales Rep
+Account
+Account Type
+Product Family
+Product
+Month / Quarter / Year
+Opportunity Stage
+Order Status
+
+don't force every filter onto every report.

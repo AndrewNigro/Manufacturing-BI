@@ -1,0 +1,114 @@
+business rules - inherited reporting notes
+
+don't use Lost opportunities in pipeline.
+
+stale = still open and Close Date already passed.
+
+Order Number is created on the opportunity and follows a standard order into ERP if we win it.
+
+original quote = Order Number.
+first revision = Order Number-1.
+second revision = Order Number-2, etc.
+Number of Revisions counts revisions after the original.
+
+quotes good for 30 days. if we revise after pricing changed, use current pricing for the revision.
+
+pricing reviewed twice a year based on manufacturing costs.
+list prices target about 60% margin before discounts.
+
+volume discount:
+1-9 = 0%
+10-24 = 5%
+25-49 = 10%
+50-99 = 15%
+100-199 = 20%
+200-499 = 25%
+500+ = 30%
+
+accounts can have their own Standard Discount % up to 30%.
+don't stack account discount and quantity discount. use whichever approved discount is better.
+
+ship day is Friday.
+lead time is shipping weeks, not 5-business-day blocks.
+if the clock starts Mon-Thurs, the next Friday can be Week 1.
+if it starts Friday, the following Friday is Week 1.
+
+yard/plastic:
+1-49 1 wk
+50-199 2 wks
+200-499 3 wks
+500+ 4 wks
+
+folding:
+1-49 2 wks
+50-199 3 wks
+200-499 4 wks
+500-999 5 wks
+1000+ 6 wks
+
+office/gaming:
+1-29 2 wks
+30-59 3 wks
+60-89 4 wks
+90-119 5 wks
+120-199 6 wks
+200-299 7 wks
+300+ 8 wks
+
+spare parts normally 1 wk.
+mixed-family order uses the longest applicable lead time.
+
+Net 30 only if Finance approved the account.
+100% Prepay and 50/50 are account choice if they aren't using Net 30.
+if credit denied, account has to use 100% Prepay or 50/50.
+
+lead-time clock:
+Net 30 = Won date
+100% Prepay = Initial Payment Date
+50/50 = Initial Payment Date (first 50%)
+
+Final Payment Date is needed to see if a 50/50 order was held for account payment.
+payment dollar amounts aren't part of this reporting project.
+
+account-requested delay/change before production -> update Promised Ship Date.
+company/vendor delay -> keep Promised Ship Date and use Adjusted Promised Ship Date + reason.
+
+if we miss Promised Ship Date because of us/vendor, it's late even if there's an adjusted date.
+if the order was ready on time and only final payment is holding shipment, don't count it late.
+if we were already late before payment became a problem, it is still late.
+
+split shipments allowed by order line.
+order stays Partially Shipped until all shippable lines are done, then Closed.
+backlog = remaining unshipped product-line Value, not full order value.
+
+FREIGHT and TAX are dedicated line codes. remove them from product units / product sales / product margin reporting.
+header Freight and Tax should reconcile to those line amounts.
+
+historical price and COGS stay on the order line. don't replace them with today's Product Reference values.
+
+before Production, quantity/product revisions are allowed.
+once Production starts, added quantity needs a new normal sales/order process.
+full cancellation before Production = no fee.
+after Production starts = 20% cancellation fee.
+large quantity reduction after Production can be treated like partial cancellation.
+cancelled orders stay in ERP as Cancelled.
+
+returns allowed within 90 days, starting 7 days after shipment.
+opened/used is still returnable with proof of purchase.
+no restocking fee.
+
+warranty is 1 year, starting 7 days after shipment.
+warranty investigation should get pictures when possible.
+approved replacement orders go into ERP at $0.
+warranty replacement uses a normal new sequential Order Number and Type = Warranty. no -W1 suffix.
+
+big-box locations can have similar names. store number matters.
+Purchase Order is not guaranteed unique.
+
+if you can't tell what the correct Account/Order/Line is, flag it instead of guessing.
+
+direct accounts need a Purchase Order once the sale is Won / entered in ERP.
+if a Direct Business or Direct Individual account doesn't provide its own PO, use the Order Number as the Purchase Order.
+open/lost opportunities can still have a blank Purchase Order until the business is actually won.
+
+Push only goes up when Sales moves an open opportunity projected Close Date to a later date. moving the date earlier does not add to Push. closing the opportunity and replacing Close Date with the actual Won/Lost date is not treated as another Push.
